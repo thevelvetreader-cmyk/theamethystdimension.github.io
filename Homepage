@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Amethyst Dimension</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Inter:wght@300;400&display=swap" rel="stylesheet">
+
+<style>
+
+body {
+    margin: 0;
+    background-color: #0f0f14;
+    color: #f4f1ea;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.8;
+}
+
+header {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 3.5rem;
+    color: #c8a2ff;
+    letter-spacing: 2px;
+}
+
+.tagline {
+    font-size: 1.2rem;
+    opacity: 0.8;
+}
+
+nav {
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #2a2a35;
+    border-bottom: 1px solid #2a2a35;
+}
+
+nav a {
+    color: #c8a2ff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 1rem;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    opacity: 0.6;
+}
+
+.section {
+    max-width: 800px;
+    margin: 100px auto;
+    padding: 0 20px;
+}
+
+.section h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2rem;
+    color: #c8a2ff;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 50px 20px;
+    opacity: 0.5;
+    font-size: 0.9rem;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>The Amethyst Dimension</h1>
+    <p class="tagline">A quiet dimension of reflection, psychology, and becoming.</p>
+</header>
+
+<nav>
+    <a href="#reflection">Reflection Library</a>
+    <a href="#letters">Letters Never Sent</a>
+    <a href="#becoming">Study of Becoming</a>
+    <a href="#mind">The Mind Room</a>
+    <a href="#archive">Quiet Archive</a>
+</nav>
+
+<div class="section" id="reflection">
+    <h2>The Reflection Library</h2>
+    <p>Short, layered reflections examining solitude, contradiction, discipline, emotional intelligence, and the silent architecture of the human mind.</p>
+</div>
+
+<div class="section" id="letters">
+    <h2>Letters Never Sent</h2>
+    <p>Anonymous letters written to versions of ourselves, to fading friendships, to quiet regrets, and to the parts of us still learning to heal.</p>
+</div>
+
+<div class="section" id="becoming">
+    <h2>The Study of Becoming</h2>
+    <p>A structured exploration of growth, academic discipline, intellectual independence, and the art of quiet self-mastery.</p>
+</div>
+
+<div class="section" id="mind">
+    <h2>The Mind Room</h2>
+    <p>Psychological insights into habits, cognitive patterns, emotional regulation, and the hidden mechanisms behind human behavior.</p>
+</div>
+
+<div class="section" id="archive">
+    <h2>The Quiet Archive</h2>
+    <p>A curated collection of ideas, philosophical concepts, book reflections, and aesthetic learning resources.</p>
+</div>
+
+<footer>
+    © The Amethyst Dimension
+</footer>
+
+</body>
+</html>
